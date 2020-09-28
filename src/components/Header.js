@@ -18,7 +18,7 @@ class Header extends React.Component {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>
-          {this.state.data.nama}
+          {title}
         </Text>
       </View>
     )
